@@ -13,6 +13,7 @@
             <v-list-item-title>Home</v-list-item-title>
           </v-list-item-content>
         </v-list-item>
+        
       </v-list>
     </v-navigation-drawer>
 
@@ -42,6 +43,7 @@
     props: {
       source: String,
     },
+
     data: () => ({
       drawer: null,
     }),
